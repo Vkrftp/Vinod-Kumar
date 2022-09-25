@@ -1,0 +1,10 @@
+import java.lang.System;
+import java.util.Scanner;
+public class binryclass1 {
+    public static void main(String[] args){
+        Scanner dk=new Scanner(System.in);
+        System.out.println("Enter a decimal:");
+        int x=dk.nextInt();
+        System.out.println( "print binar number:"+Integer.toBinaryString(x));
+    }
+}
