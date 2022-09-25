@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class binryclass1 {
     public static void main(String[] args){
         Scanner dk=new Scanner(System.in);
-        System.out.println("Enter a decimal:");
+        System.out.println("Enter a decimal Number :");
         int x=dk.nextInt();
-        System.out.println( "print binar number:"+Integer.toBinaryString(x));
+        System.out.println( "Print binary Number:"+Integer.toBinaryString(x));
     }
 }
