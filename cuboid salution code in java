@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class cuboinarea {
+    public static void main(String[] args){
+        int height,lenght,bright;
+        float totalarea,volume;
+        Scanner cubic=new Scanner(System.in);
+        System.out.println("Enter the leght of cube: ");
+        height=cubic.nextInt();
+        System.out.println("Enter the height of cube: ");
+        lenght=cubic.nextInt();
+        System.out.println("enter the bright of cube : ");
+        bright=cubic.nextInt();
+        totalarea=2*(lenght*height+lenght*bright+bright*height);
+        volume=(lenght*height*bright);
+        System.out.println("tatalarea: "+totalarea);
+        System.out.println("valume: "+volume);
+    }
+}
